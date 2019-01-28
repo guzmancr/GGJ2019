@@ -31,14 +31,16 @@ public class SCN_fire_Ctrl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (moveValue > 0 )//&& psLast.isPlaying == true)
-        {
-            turnFireOn(Particle_R_1, Particle_R_2);
+     //   moveValue = Input.
 
-        } else if (moveValue < 0 )//&& psLast.isPlaying == true)
-        {
-            turnFireOn(Particle_L_1, Particle_L_2);
-        }
+       // if (moveValue > 0 )//&& psLast.isPlaying == true)
+       // {
+//turnFireOn(Particle_R_1, Particle_R_2);
+
+       // } else if (moveValue < 0 )//&& psLast.isPlaying == true)
+       // {
+       //     turnFireOn(Particle_L_1, Particle_L_2);
+      //  }
 
 
 	}
